@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Spotify Streamer</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_track">Top 10 Tracks</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_play">PlayActivity</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="pref_country_code_label">Country Code</string>
+    <string name="pref_country_code_default" translatable="false">US</string>
+    <string name="pref_country_code_key" translatable="false">countryCode</string>
+    <string name="action_now_playing" translatable="false">Now Playing</string>
+    <string name="action_share" translatable="false">Share</string>
+    <string name="notif_summary">OFF</string>
+    <string name="notif_title">Disable Notifications</string>
+</resources>

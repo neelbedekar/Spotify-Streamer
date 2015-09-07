@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Coldplay"
+        android:textSize="@dimen/abc_action_bar_content_inset_material"
+        android:paddingTop="@dimen/abc_text_size_button_material"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ghost Stories"
+        android:textSize="@dimen/abc_action_bar_content_inset_material"
+        android:gravity="center_horizontal"/>
+
+    <ImageView
+        android:layout_width="650px"
+        android:layout_height="650px"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A Sky Full of Stars"
+        android:textSize="@dimen/abc_action_bar_content_inset_material"
+        android:gravity="center_horizontal"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:id="@+id/scrubBar"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:padding="10dp"
+            android:id="@+id/playButton"
+            android:src="@android:drawable/ic_media_play"
+            android:background="#cbcbcb"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:tint="#FF010101" />
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:padding="10dp"
+            android:id="@+id/previousButton"
+            android:src="@android:drawable/ic_media_previous"
+            android:background="#cbcbcb"
+            android:layout_marginLeft="45dp"
+            android:layout_marginStart="45dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:tint="#010101" />
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:padding="10dp"
+            android:id="@+id/nextButton"
+            android:src="@android:drawable/ic_media_next"
+            android:background="#cbcbcb"
+            android:layout_marginLeft="45dp"
+            android:layout_marginStart="45dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/playButton"
+            android:layout_toEndOf="@+id/playButton"
+            android:tint="#FF010101" />
+    </RelativeLayout>
+
+</LinearLayout>
